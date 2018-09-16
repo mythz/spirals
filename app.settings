@@ -1,0 +1,3 @@
+debug true
+name My App
+CefConfig { width:1100, height:900 }

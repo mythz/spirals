@@ -1,0 +1,22 @@
+{{ from ?? 1 | toInt | assignTo: from }}
+<div style="text-align:right;margin:-54px 0 30px 0">
+  {{#if from > 1}} <a href="?from={{ max(from-4,0) }}" title="{{max(from-1,0)}}">previous</a> |{{/if}}
+  {{from}} | <a href="?from={{ from+4 }}" title="{{max(from-1,0)}}">next</a>
+</div>
+
+{{#each i in range(from, 4) }}
+<svg height="640" width="240">
+{{#each range(180) }}
+  {{ 120 + 100 * cos((5) * it * 0.02827) | assignTo: x }}
+  {{ 320 + 300 * sin((1+i)  * it * 0.02827) | assignTo: y }}
+  <circle cx="{{x}}" cy="{{y}}" r="{{it*0.1}}" fill="rgb(0,{{it*1.4}},0)" stroke="black" stroke-width="1"></circle>
+{{/each}} 
+</svg>
+{{/each}}
+
+<div>
+  Jump to favorites: 
+  {{#each [1,221,441,445,665,885,889,1109,1329,1333,1553,1665,1777,1997,2001,2217,2221,2441] }}
+    {{#if index > 0}} | {{/if}} {{#if from == it }} {{it}} {{else}} <a href="?from={{it}}">{{it}</a> {{/if}}
+  {{/each}}
+</div>
