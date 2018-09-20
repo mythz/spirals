@@ -27,7 +27,11 @@ Run as a .NET Core Web App (Windows, macOS, Linux):
 Spirals is a good example showing how easy it is to create .NET Core Desktop Web Apps utilizing HTML5's familiar and simple development model to
 leverage advanced Web Technologies like SVG in a fun, interactive and live development experience. 
 
-To start let's create a folder for our app called `spirals` and initialize and empty Web App with `app init`:
+To start install the dotnet `app` global tool:
+
+    $ dotnet tool install -g app
+
+Then create a folder for our app called `spirals` and initialize and empty Web App with `app init`:
 
     $ md spirals
     $ cd spirals && app init
