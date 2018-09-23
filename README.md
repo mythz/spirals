@@ -4,8 +4,6 @@ Explore and generate different Spirals with SVG
 
 [![](https://raw.githubusercontent.com/NetCoreApps/TemplatePages/master/src/wwwroot/assets/img/screenshots/spirals.png)](http://spirals.web-app.io)
 
-> Video: https://youtu.be/Cf-vstYXrmY
-
 ## Install
 
 Run as a Desktop App (Windows only):
@@ -27,6 +25,8 @@ Run as a .NET Core Web App (Windows, macOS, Linux):
 ## The Making of Spirals
 
 [![Spirals .NET Core Desktop App](http://img.youtube.com/vi/Cf-vstYXrmY/0.jpg)](http://www.youtube.com/watch?feature=player_embedded&v=Cf-vstYXrmY)
+
+> Video: https://youtu.be/Cf-vstYXrmY
 
 Spirals is a good example showing how easy it is to create .NET Core Desktop Web Apps utilizing HTML5's familiar and simple development model to
 leverage advanced Web Technologies like SVG in a fun, interactive and live development experience. 
