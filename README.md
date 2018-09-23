@@ -24,7 +24,7 @@ Run as a .NET Core Web App (Windows, macOS, Linux):
 
 ## The Making of Spirals
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Cf-vstYXrmY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+[![Spirals .NET Core Desktop App](http://img.youtube.com/vi/Cf-vstYXrmY/0.jpg)](http://www.youtube.com/watch?feature=player_embedded&v=Cf-vstYXrmY)
 
 Spirals is a good example showing how easy it is to create .NET Core Desktop Web Apps utilizing HTML5's familiar and simple development model to
 leverage advanced Web Technologies like SVG in a fun, interactive and live development experience. 
