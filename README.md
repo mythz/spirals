@@ -4,6 +4,8 @@ Explore and generate different Spirals with SVG
 
 [![](https://raw.githubusercontent.com/NetCoreApps/TemplatePages/master/src/wwwroot/assets/img/screenshots/spirals.png)](http://spirals.web-app.io)
 
+> Video: https://youtu.be/Cf-vstYXrmY
+
 ## Install
 
 Run as a Desktop App (Windows only):
