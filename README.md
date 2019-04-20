@@ -283,7 +283,7 @@ Although hard to capture in a screenshot, we can sit back and watch our living, 
 Lets expand our App beyond these static Spirals by enabling some navigation, this is easily done by adding the snippet below on the top of the home page:
 
 ```hbs
-{{ from ?? 1 | toInt | assignTo: from }}
+{{ qs.from ?? 1 | toInt | assignTo: from }}
 <div style="text-align:right;margin:-54px 0 30px 0">
   {{#if from > 1}} <a href="?from={{ max(from-1,0) }}" title="{{max(from-1,0)}}">previous</a> |{{/if}}
   {{from}} | <a href="?from={{ from+1 }}" title="{{max(from-1,0)}}">next</a>
@@ -293,7 +293,7 @@ Lets expand our App beyond these static Spirals by enabling some navigation, thi
 Whilst the `multi.html` and `animated.html` pages can skip by 4:
 
 ```hbs
-{{ from ?? 1 | toInt | assignTo: from }}
+{{ qs.from ?? 1 | toInt | assignTo: from }}
 <div style="text-align:right;margin:-54px 0 30px 0">
   {{#if from > 1}} <a href="?from={{ max(from-4,0) }}" title="{{max(from-1,0)}}">previous</a> |{{/if}}
   {{from}} | <a href="?from={{ from+4 }}" title="{{max(from-1,0)}}">next</a>
